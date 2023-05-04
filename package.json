@@ -1,0 +1,25 @@
+{
+  "name": "@buka/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint config for Buka LTC",
+  "main": ".eslintrc.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "eslint-config",
+    "buka"
+  ],
+  "author": "val.istar.guo <val.istar.guo@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Val-istar-Guo/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Val-istar-Guo/eslint-config/issues"
+  },
+  "homepage": "https://github.com/Val-istar-Guo/eslint-config#readme"
+}
