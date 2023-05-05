@@ -1,5 +1,5 @@
-{
-  "extends": ["eslint:recommended"],
+module.exports = {
+  "extends": ["eslint:recommended", "./autofix.js"],
   "rules": {
     "eqeqeq": "error",
     "new-cap": "error",

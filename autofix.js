@@ -1,4 +1,4 @@
-{
+module.exports = {
   "rules": {
     "no-confusing-arrow": "error",
     "no-div-regex": "error",

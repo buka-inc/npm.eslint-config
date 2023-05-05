@@ -1,5 +1,7 @@
-{
-  "extends": ["../autofix.json"],
+module.exports = {
+  "extends": ["../autofix.js"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
   "rules": {
     "semi": "off",
     "@typescript-eslint/semi": [
