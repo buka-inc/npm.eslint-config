@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/Val-istar-Guo/eslint-config/compare/v1.1.0...v1.1.1) (2023-05-05)
+
+
+### Bug Fixes
+
+* typescript recommended not include autofix rules ([3ce8dd5](https://github.com/Val-istar-Guo/eslint-config/commit/3ce8dd5c04ababe962a17d6be57289fbafb28c1f))
+
 ## 1.1.0 (2023-05-05)
 
 
