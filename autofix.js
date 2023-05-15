@@ -27,7 +27,8 @@ module.exports = {
     "prefer-object-spread": "error",
 
     "line-comment-position": ["error", "above"],
-    "multiline-comment-style": ["error", "starred-block"],
+    // 会导致vscode的vim插件的gcc指令无法解除注释
+    // "multiline-comment-style": ["error", "starred-block"],
     "spaced-comment": ["error", "always"],
 
     "array-bracket-spacing": ["error", "never"],
