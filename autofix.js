@@ -29,7 +29,8 @@ module.exports = {
     "line-comment-position": ["error", "above"],
     // 会导致vscode的vim插件的gcc指令无法解除注释
     // "multiline-comment-style": ["error", "starred-block"],
-    "spaced-comment": ["error", "always"],
+    // typescript 的特殊注释需要三个反斜杠
+    "spaced-comment": ["error", "always", { "markers": ['/'] }],
 
     "array-bracket-spacing": ["error", "never"],
     "array-element-newline": ["error", "consistent"],
