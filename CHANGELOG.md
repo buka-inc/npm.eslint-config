@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/Val-istar-Guo/eslint-config/compare/v1.1.1...v1.1.2) (2023-05-15)
+
+
+### Bug Fixes
+
+* compatible with vscode vim plugin ([4cb9637](https://github.com/Val-istar-Guo/eslint-config/commit/4cb963788861b9398b4638b20c81e75805eaf4e1))
+
 ### [1.1.1](https://github.com/Val-istar-Guo/eslint-config/compare/v1.1.0...v1.1.1) (2023-05-05)
 
 
