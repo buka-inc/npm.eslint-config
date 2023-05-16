@@ -27,6 +27,10 @@ module.exports = {
     ],
     "no-unused-vars": "off",
     "@typescript-eslint/no-unused-vars": "error",
-    "@typescript-eslint/ban-ts-comment": "warn"
+    "@typescript-eslint/ban-ts-comment": "warn",
+    '@typescript-eslint/restrict-template-expressions': ['error', {
+      allowString: true,
+      allowNumber: true,
+    }],
   }
 }
