@@ -32,5 +32,7 @@ module.exports = {
       allowString: true,
       allowNumber: true,
     }],
+    'no-dupe-class-members': 'off',
+    '@typescript-eslint/no-dupe-class-members': 'error',
   }
 }
