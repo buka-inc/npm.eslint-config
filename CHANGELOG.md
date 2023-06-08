@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/Val-istar-Guo/eslint-config/compare/v1.2.0...v1.2.1) (2023-06-08)
+
+
+### Bug Fixes
+
+* no-dupe-class-members rule for typescript ([544d9f5](https://github.com/Val-istar-Guo/eslint-config/commit/544d9f5663f41011354a9d5853713a3c729cea0e))
+
 ## [1.2.0](https://github.com/Val-istar-Guo/eslint-config/compare/v1.1.3...v1.2.0) (2023-05-16)
 
 
