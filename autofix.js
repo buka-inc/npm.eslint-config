@@ -123,6 +123,6 @@ module.exports = {
         "exceptAfterSingleLine": true
       }
     ],
-    "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 1 }]
+    "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 2 }]
   }
 }
