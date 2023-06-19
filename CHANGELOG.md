@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/Val-istar-Guo/eslint-config/compare/v1.2.1...v1.3.0) (2023-06-19)
+
+
+### Features
+
+* set newline-per-chained-call 2 ([1c6102f](https://github.com/Val-istar-Guo/eslint-config/commit/1c6102f86b71a8ad1c0e9592aa77a6b4a04dfd55))
+
 ### [1.2.1](https://github.com/Val-istar-Guo/eslint-config/compare/v1.2.0...v1.2.1) (2023-06-08)
 
 
