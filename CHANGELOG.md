@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/Val-istar-Guo/eslint-config/compare/v1.3.0...v1.4.0) (2023-07-29)
+
+
+### Features
+
+* support @Typescript-eslint/parser@6 ([910b980](https://github.com/Val-istar-Guo/eslint-config/commit/910b980c949f73280e61bee1c8fb5c00c472c1d7))
+
 ## [1.3.0](https://github.com/Val-istar-Guo/eslint-config/compare/v1.2.1...v1.3.0) (2023-06-19)
 
 
