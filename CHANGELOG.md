@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.1](https://github.com/Val-istar-Guo/eslint-config/compare/v1.4.0...v1.4.1) (2023-07-29)
+
+
+### Bug Fixes
+
+* wrong deps ([2f2a6bc](https://github.com/Val-istar-Guo/eslint-config/commit/2f2a6bc0c35bcf36d1af78b147c79fa5ea8b5672))
+
 ## [1.4.0](https://github.com/Val-istar-Guo/eslint-config/compare/v1.3.0...v1.4.0) (2023-07-29)
 
 
