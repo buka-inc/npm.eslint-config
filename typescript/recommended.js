@@ -1,7 +1,7 @@
 module.exports = {
   "extends": [
-    "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "@typescript-eslint/eslint-plugin/recommended",
+    "@typescript-eslint/eslint-plugin/recommended-requiring-type-checking",
     "./autofix.js",
     "../recommended.js"
   ],
@@ -29,7 +29,6 @@ module.exports = {
     "@typescript-eslint/no-unused-vars": "error",
     "@typescript-eslint/ban-ts-comment": "warn",
     '@typescript-eslint/restrict-template-expressions': ['error', {
-      allowString: true,
       allowNumber: true,
     }],
     'no-dupe-class-members': 'off',
