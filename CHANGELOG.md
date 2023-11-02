@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/Val-istar-Guo/eslint-config/compare/v1.4.1...v1.5.0) (2023-11-02)
+
+
+### Features
+
+* off typescript no-redeclare ([8d6ea92](https://github.com/Val-istar-Guo/eslint-config/commit/8d6ea92f815c5dc2ff2d5940e7c5d375d5cd4fc3))
+* set no-redundant-type-constituents to warn ([f574187](https://github.com/Val-istar-Guo/eslint-config/commit/f5741871be82766ffcb72bd2ee777f3c3d75ed03))
+
 ### [1.4.1](https://github.com/Val-istar-Guo/eslint-config/compare/v1.4.0...v1.4.1) (2023-07-29)
 
 
