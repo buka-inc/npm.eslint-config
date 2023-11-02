@@ -34,5 +34,6 @@ module.exports = {
     }],
     'no-dupe-class-members': 'off',
     '@typescript-eslint/no-dupe-class-members': 'error',
+    '@typescript-eslint/no-redeclare': 'error',
   }
 }

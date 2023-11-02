@@ -4,6 +4,7 @@ module.exports = {
   "plugins": ["@typescript-eslint"],
   "rules": {
     "semi": "off",
+    'no-redeclare': 'off',
     "@typescript-eslint/semi": [
       "error",
       "never"
