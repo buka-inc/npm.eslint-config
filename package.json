@@ -16,12 +16,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Val-istar-Guo/eslint-config.git"
+    "url": "git+https://github.com/buka-lnc/npm.eslint-config.git"
   },
   "bugs": {
-    "url": "https://github.com/Val-istar-Guo/eslint-config/issues"
+    "url": "https://github.com/buka-lnc/npm.eslint-config/issues"
   },
-  "homepage": "https://github.com/Val-istar-Guo/eslint-config#readme",
+  "homepage": "https://github.com/buka-lnc/npm.eslint-config#readme",
   "devDependencies": {
     "standard-version": "^9.5.0"
   },
