@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/buka-lnc/npm.eslint-config/compare/v1.5.0...v1.6.0) (2023-12-03)
+
+
+### Features
+
+* add esm-recommended ([d0f3a01](https://github.com/buka-lnc/npm.eslint-config/commit/d0f3a01262bd9eff27ac42957459ebc3991f952c))
+
 ## [1.5.0](https://github.com/Val-istar-Guo/eslint-config/compare/v1.4.1...v1.5.0) (2023-11-02)
 
 
