@@ -10,7 +10,7 @@ module.exports = {
     "@typescript-eslint/no-unsafe-member-access": "off",
     "@typescript-eslint/no-unsafe-assignment": "off",
     "@typescript-eslint/no-unsafe-argument": "off",
-    '@typescript-eslint/no-redundant-type-constituents': 'warn',
+    "@typescript-eslint/no-redundant-type-constituents": "warn",
     "new-cap": [
       "error",
       {
@@ -29,11 +29,11 @@ module.exports = {
     "no-unused-vars": "off",
     "@typescript-eslint/no-unused-vars": "error",
     "@typescript-eslint/ban-ts-comment": "warn",
-    '@typescript-eslint/restrict-template-expressions': ['error', {
+    "@typescript-eslint/restrict-template-expressions": ["error", {
       allowNumber: true,
     }],
-    'no-dupe-class-members': 'off',
-    '@typescript-eslint/no-dupe-class-members': 'error',
-    '@typescript-eslint/no-redeclare': 'error',
+    "no-dupe-class-members": "off",
+    "@typescript-eslint/no-dupe-class-members": "error",
+    "@typescript-eslint/no-redeclare": "error",
   }
 }
