@@ -1,7 +1,7 @@
 module.exports = {
   "extends": ["../autofix.js"],
-  "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint"],
+  // "parser": "@typescript-eslint/parser",
+  // "plugins": ["@typescript-eslint"],
   "rules": {
     "semi": "off",
     "no-redeclare": "off",
