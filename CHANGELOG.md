@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.1](https://github.com/buka-lnc/npm.eslint-config/compare/v1.6.0...v1.6.1) (2024-02-25)
+
+
+### Bug Fixes
+
+* remove parser and plugins defaulted ([c75ca79](https://github.com/buka-lnc/npm.eslint-config/commit/c75ca79f6c21f1b0e93ffca87c5b09af3c47697e))
+
 ## [1.6.0](https://github.com/buka-lnc/npm.eslint-config/compare/v1.5.0...v1.6.0) (2023-12-03)
 
 
