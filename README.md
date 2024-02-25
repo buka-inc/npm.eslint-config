@@ -10,6 +10,12 @@
 
 ## Usage
 
+```bash
+npm install @buka/eslint-config
+```
+
+Add to eslint config:
+
 ```json
 {
   "parser": "@typescript-eslint/parser",
