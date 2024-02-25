@@ -7,3 +7,17 @@
 | @buka/eslint-config/typescript/autofix         |
 | @buka/eslint-config/typescript/recommended     |
 | @buka/eslint-config/typescript/esm-recommended |
+
+## Usage
+
+```json
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "@buka/eslint-config/typescript/recommended"
+  ]
+}
+```
