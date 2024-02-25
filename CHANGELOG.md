@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.3](https://github.com/buka-lnc/npm.eslint-config/compare/v1.6.2...v1.6.3) (2024-02-25)
+
+
+### Bug Fixes
+
+* wrong lock ([6dfeb87](https://github.com/buka-lnc/npm.eslint-config/commit/6dfeb87069ac79ee318582cbc1a0da7563218ab9))
+
 ## [1.6.2](https://github.com/buka-lnc/npm.eslint-config/compare/v1.6.1...v1.6.2) (2024-02-25)
 
 
