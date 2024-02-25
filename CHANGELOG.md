@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.2](https://github.com/buka-lnc/npm.eslint-config/compare/v1.6.1...v1.6.2) (2024-02-25)
+
+
+### Bug Fixes
+
+* remove @typescript-eslint/recommended ([920cbc9](https://github.com/buka-lnc/npm.eslint-config/commit/920cbc90ebd77b4228dc7dd153dc0356eb65677c))
+
 ### [1.6.1](https://github.com/buka-lnc/npm.eslint-config/compare/v1.6.0...v1.6.1) (2024-02-25)
 
 
