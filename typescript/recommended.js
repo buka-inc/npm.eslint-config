@@ -32,6 +32,7 @@ module.exports = {
     }],
     "no-dupe-class-members": "off",
     "@typescript-eslint/no-dupe-class-members": "error",
+    "no-redeclare": "off",
     "@typescript-eslint/no-redeclare": "error",
   }
 }
