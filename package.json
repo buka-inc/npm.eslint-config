@@ -2,7 +2,7 @@
   "name": "@buka/eslint-config",
   "version": "1.6.4",
   "description": "ESLint config for Buka LTC",
-  "main": "autofix.js",
+  "main": "index.js",
   "scripts": {
     "release": "standard-version"
   },
@@ -23,14 +23,19 @@
   },
   "homepage": "https://github.com/buka-lnc/npm.eslint-config#readme",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.13.1",
-    "@typescript-eslint/parser": "^6.13.1",
-    "eslint-plugin-require-extensions": "^0.1.3",
+    "eslint": "^9.9.1",
     "standard-version": "^9.5.0"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "*",
-    "@typescript-eslint/parser": "*",
-    "eslint-plugin-require-extensions": "*"
+    "eslint": "^9.9.1"
+  },
+  "dependencies": {
+    "@eslint/js": "^9.9.1",
+    "@stylistic/eslint-plugin": "^2.7.2",
+    "@typescript-eslint/eslint-plugin": "^8.3.0",
+    "@typescript-eslint/parser": "^8.3.0",
+    "eslint-flat-config-utils": "^0.3.1",
+    "globals": "^15.9.0",
+    "typescript-eslint": "^8.3.0"
   }
 }
