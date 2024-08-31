@@ -1,6 +1,6 @@
 {
   "name": "@buka/eslint-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "ESLint config for Buka LTC",
   "main": "index.js",
   "scripts": {
