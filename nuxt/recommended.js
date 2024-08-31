@@ -1,5 +1,11 @@
 module.exports = [
   {
+    languageOptions: {
+      parserOptions: {
+        project: true,
+      }
+    },
+
     rules: {
       '@typescript-eslint/consistent-type-imports': 'off',
       'vue/no-multiple-template-root': 'off',
@@ -12,9 +18,6 @@ module.exports = [
           "allowTypedFunctionExpressions": true
         }
       ],
-      "@typescript-eslint/restrict-template-expressions": ["error", {
-        allowNumber: true,
-      }],
     }
   }
 ]
