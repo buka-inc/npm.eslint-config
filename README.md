@@ -1,6 +1,12 @@
 # @buka/eslint-config
 
+[npm]: https://www.npmjs.com/package/@buka/class-transformer-extra
 [Buka]: https://github.com/buka-lnc
+
+[![version](https://img.shields.io/npm/v/@buka/eslint-config.svg?logo=npm&style=for-the-badge)][npm]
+[![downloads](https://img.shields.io/npm/dm/@buka/eslint-config.svg?logo=npm&style=for-the-badge)][npm]
+[![dependencies](https://img.shields.io/librariesio/release/npm/@buka/eslint-config?logo=npm&style=for-the-badge)][npm]
+[![license](https://img.shields.io/npm/l/@buka/eslint-config.svg?logo=github&style=for-the-badge)][npm]
 
 [Buka][Buka] 基准 Eslint 规则，需要`eslint > 9`。
 
