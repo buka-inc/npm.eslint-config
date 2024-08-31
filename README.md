@@ -1,6 +1,6 @@
 # @buka/eslint-config
 
-[npm]: https://www.npmjs.com/package/@buka/class-transformer-extra
+[npm]: https://www.npmjs.com/package/@buka/eslint-config
 [Buka]: https://github.com/buka-lnc
 
 [![version](https://img.shields.io/npm/v/@buka/eslint-config.svg?logo=npm&style=for-the-badge)][npm]
