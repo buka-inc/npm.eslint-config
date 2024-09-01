@@ -51,7 +51,9 @@ module.exports = [
         }
       ],
       "no-unused-vars": "off",
-      "@typescript-eslint/no-unused-vars": "error",
+      "@typescript-eslint/no-unused-vars": ["error", {
+        caughtErrors: "none",
+      }],
       "@typescript-eslint/ban-ts-comment": "warn",
       "@typescript-eslint/restrict-template-expressions": ["error", {
         allowNumber: true,
