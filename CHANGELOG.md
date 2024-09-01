@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.2](https://github.com/buka-lnc/npm.eslint-config/compare/v2.0.1...v2.0.2) (2024-09-01)
+
+
+### Performance Improvements
+
+* no-unused-vars set caughtErrors to none ([0de16e9](https://github.com/buka-lnc/npm.eslint-config/commit/0de16e987650cb8bb5ef869c1c0ccb09beab3c23))
+
 ## [2.0.1](https://github.com/buka-lnc/npm.eslint-config/compare/v2.0.0...v2.0.1) (2024-08-31)
 
 
