@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.3](https://github.com/buka-lnc/npm.eslint-config/compare/v2.0.2...v2.0.3) (2024-09-01)
+
+
+### Performance Improvements
+
+* set ban-ts-comment to warn for nuxt ([a6554e6](https://github.com/buka-lnc/npm.eslint-config/commit/a6554e6bf20d311f1463609fe05e39740c405ca8))
+
 ## [2.0.2](https://github.com/buka-lnc/npm.eslint-config/compare/v2.0.1...v2.0.2) (2024-09-01)
 
 
