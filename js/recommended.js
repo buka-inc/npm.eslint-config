@@ -9,16 +9,16 @@ module.exports = [
 
   {
     files: ['**/*.js'],
-    "rules": {
-      "eqeqeq": "error",
-      "new-cap": "error",
-      "prefer-spread": "error",
-      "no-empty": [
-        "error",
+    rules: {
+      eqeqeq: 'error',
+      'new-cap': 'error',
+      'prefer-spread': 'error',
+      'no-empty': [
+        'error',
         {
-          "allowEmptyCatch": true
-        }
-      ]
-    }
-  }
+          allowEmptyCatch: true,
+        },
+      ],
+    },
+  },
 ]

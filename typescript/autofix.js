@@ -4,9 +4,8 @@ const stylistic = require('@stylistic/eslint-plugin')
 const typescriptEslint = require('@typescript-eslint/eslint-plugin')
 
 
-
 module.exports = [
-  ...js.autofix.map(config => ({
+  ...js.autofix.map((config) => ({
     ...config,
     files: ['**/*.js', '**/*.ts'],
   })),
@@ -26,27 +25,27 @@ module.exports = [
       '@typescript-eslint': typescriptEslint,
     },
 
-    "rules": {
-      "no-redeclare": "off",
-      "@typescript-eslint/explicit-member-accessibility": [
-        "error",
+    rules: {
+      'no-redeclare': 'off',
+      '@typescript-eslint/explicit-member-accessibility': [
+        'error',
         {
-          "overrides": {
-            "accessors": "off",
-            "constructors": "off",
-            "properties": "no-public",
-            "methods": "no-public"
-          }
-        }
+          overrides: {
+            accessors: 'off',
+            constructors: 'off',
+            properties: 'no-public',
+            methods: 'no-public',
+          },
+        },
       ],
-      "@stylistic/member-delimiter-style": [
-        "error",
+      '@stylistic/member-delimiter-style': [
+        'error',
         {
-          "multiline": {
-            "delimiter": "none"
-          }
-        }
-      ]
-    }
-  }
+          multiline: {
+            delimiter: 'none',
+          },
+        },
+      ],
+    },
+  },
 ]
