@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/buka-lnc/npm.eslint-config/compare/v2.0.3...v2.1.0) (2024-09-05)
+
+
+### Features
+
+* add react eslint config ([83b1d48](https://github.com/buka-lnc/npm.eslint-config/commit/83b1d48915469630b7a72561e7d6408996db4b63))
+
 ## [2.0.3](https://github.com/buka-lnc/npm.eslint-config/compare/v2.0.2...v2.0.3) (2024-09-01)
 
 
