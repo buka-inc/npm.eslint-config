@@ -2,13 +2,16 @@ const parserTs = require('@typescript-eslint/parser')
 const js = require('../js')
 const stylistic = require('@stylistic/eslint-plugin')
 const typescriptEslint = require('@typescript-eslint/eslint-plugin')
+const merge = require('../utils/merge')
 
 
 module.exports = [
-  ...js.autofix.map((config) => ({
-    ...config,
-    files: ['**/*.js', '**/*.ts'],
-  })),
+  ...merge(
+    js.autofix,
+    {
+      files: ['**/*.js', '**/*.cjs', '**/*.mjs', '**/*.ts'],
+    },
+  ),
 
   {
     files: ['**/*.ts'],

@@ -3,7 +3,7 @@ const stylistic = require('@stylistic/eslint-plugin')
 
 module.exports = [
   {
-    files: ['**/*.js'],
+    files: ['**/*.js', '**/*.cjs', '**/*.mjs'],
 
     plugins: {
       '@stylistic': stylistic,

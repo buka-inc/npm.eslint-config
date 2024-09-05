@@ -8,17 +8,12 @@ module.exports = [
   ...autofix,
 
   {
-    files: ['**/*.js'],
+    files: ['**/*.js', '**/*.cjs', '**/*.mjs'],
     rules: {
       eqeqeq: 'error',
       'new-cap': 'error',
       'prefer-spread': 'error',
-      'no-empty': [
-        'error',
-        {
-          allowEmptyCatch: true,
-        },
-      ],
+      'no-empty': ['error', { allowEmptyCatch: true }],
     },
   },
 ]

@@ -3,18 +3,23 @@ const js = require('../js')
 const autofix = require('./autofix')
 const tseslint = require('typescript-eslint')
 const typescriptEslint = require('@typescript-eslint/eslint-plugin')
+const merge = require('../utils/merge')
 
 
 module.exports = [
-  ...js.recommended.map((config) => ({
-    ...config,
-    files: ['**/*.js', '**/*.ts'],
-  })),
+  ...merge(
+    js.recommended,
+    {
+      files: ['**/*.js', '**/*.cjs', '**/*.mjs', '**/*.ts'],
+    },
+  ),
 
-  ...tseslint.configs.recommended.map((config) => ({
-    ...config,
-    files: ['**/*.ts'],
-  })),
+  ...merge(
+    tseslint.configs.recommended,
+    {
+      files: ['**/*.ts'],
+    },
+  ),
 
   ...autofix,
 
