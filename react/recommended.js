@@ -3,7 +3,6 @@ const typescript = require('../typescript')
 const merge = require('../utils/merge')
 const globals = require('globals')
 const react = require('eslint-plugin-react')
-const reactHook = require('eslint-plugin-react-hooks')
 
 
 module.exports = [
@@ -41,11 +40,8 @@ module.exports = [
     files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}'],
     plugins: {
       react,
-      'react-hooks': reactHook,
     },
     rules: {
-      'react-hooks/rules-of-hooks': 'warn',
-      'react-hooks/exhaustive-deps': 'warn',
       'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
       'react/jsx-equals-spacing': 'error',
       'react/jsx-max-props-per-line': ['error', { maximum: 2 }],
