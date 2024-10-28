@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.2](https://github.com/buka-lnc/npm.eslint-config/compare/v2.1.1...v2.1.2) (2024-10-28)
+
+
+### Performance Improvements
+
+* **nuxt:** set @stylistic/brace-style to 1tbs ([5c8d4c0](https://github.com/buka-lnc/npm.eslint-config/commit/5c8d4c07b09a866e382793aa08afbf44634af5fb))
+
 ## [2.1.1](https://github.com/buka-lnc/npm.eslint-config/compare/v2.1.0...v2.1.1) (2024-09-06)
 
 
