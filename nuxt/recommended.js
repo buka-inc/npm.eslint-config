@@ -19,6 +19,7 @@ module.exports = [
           allowTypedFunctionExpressions: true,
         },
       ],
+      '@stylistic/brace-style': ['error', '1tbs'],
     },
   },
 ]
