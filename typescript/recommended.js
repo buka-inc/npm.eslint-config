@@ -67,6 +67,8 @@ module.exports = [
       '@typescript-eslint/no-dupe-class-members': 'error',
       'no-redeclare': 'off',
       '@typescript-eslint/no-redeclare': 'error',
+      'no-unused-expressions': 'off',
+      '@typescript-eslint/no-unused-expressions': ['error', { allowShortCircuit: true }],
     },
   },
 ]

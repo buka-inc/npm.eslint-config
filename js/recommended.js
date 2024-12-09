@@ -14,6 +14,7 @@ module.exports = [
       'new-cap': 'error',
       'prefer-spread': 'error',
       'no-empty': ['error', { allowEmptyCatch: true }],
+      'no-unused-expressions': ['error', { allowShortCircuit: true }],
     },
   },
 ]
