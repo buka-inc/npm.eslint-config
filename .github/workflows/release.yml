@@ -30,12 +30,14 @@ jobs:
           token: ${{ steps.app-token.outputs.token }}
           persist-credentials: false
       - if: ${{ steps.release.outputs.release_created }}
+        uses: pnpm/action-setup@v4
+      - if: ${{ steps.release.outputs.release_created }}
         uses: actions/setup-node@v4
         with:
           node-version-file: ".node-version"
           registry-url: https://registry.npmjs.org/
       - if: ${{ steps.release.outputs.release_created }}
-        run: corepack pnpm install
+        run: pnpm install
       - if: ${{ steps.release.outputs.release_created }}
         run: npm publish --provenance
         env:
