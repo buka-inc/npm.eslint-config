@@ -1,5 +1,6 @@
 {
   "name": "@buka/eslint-config",
+  "packageManager": "pnpm@9.14.4",
   "version": "2.1.2",
   "description": "ESLint config for Buka LTC",
   "main": "index.js",
