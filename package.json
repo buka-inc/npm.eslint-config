@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/buka-lnc/npm.eslint-config.git"
+    "url": "https://github.com/buka-inc/npm.eslint-config"
   },
   "bugs": {
     "url": "https://github.com/buka-lnc/npm.eslint-config/issues"
