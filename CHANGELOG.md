@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.3](https://github.com/buka-inc/npm.eslint-config/compare/v2.1.2...v2.1.3) (2024-12-09)
+
+
+### Performance Improvements
+
+* add no-unused-expressions and set allowShortCircuit to true ([bd84b2a](https://github.com/buka-inc/npm.eslint-config/commit/bd84b2a3077a0418f86892faa8251684c7d22898))
+
 ## [2.1.2](https://github.com/buka-lnc/npm.eslint-config/compare/v2.1.1...v2.1.2) (2024-10-28)
 
 
