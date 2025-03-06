@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.6](https://github.com/buka-inc/npm.eslint-config/compare/v2.1.5...v2.1.6) (2025-03-06)
+
+
+### Performance Improvements
+
+* set @typescript-eslint/no-explicit-any as warn ([36cd993](https://github.com/buka-inc/npm.eslint-config/commit/36cd9930dd7c926c430b462bac50bcd288131d38))
+
 ## [2.1.5](https://github.com/buka-inc/npm.eslint-config/compare/v2.1.4...v2.1.5) (2025-02-26)
 
 
