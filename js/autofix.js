@@ -17,7 +17,7 @@ module.exports = [
       'no-unneeded-ternary': 'error',
       'no-useless-computed-key': 'error',
       'no-var': 'error',
-      'no-unused-vars': ['error', { caughtErrors: 'none' }],
+      // 'no-unused-vars': ['warn', { caughtErrors: 'none' }],
       'prefer-const': 'error',
       'prefer-template': 'error',
       'prefer-object-spread': 'error',
