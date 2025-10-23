@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/buka-inc/npm.eslint-config/compare/v2.1.7...v3.0.0) (2025-10-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* nuxt and react config had be deprecated
+
+### Code Refactoring
+
+* redesign the shared config to conform to the eslint9 style ([dd173f1](https://github.com/buka-inc/npm.eslint-config/commit/dd173f1f3506166862c28d65d8724de9f20b8525))
+
 ## [2.1.7](https://github.com/buka-inc/npm.eslint-config/compare/v2.1.6...v2.1.7) (2025-10-13)
 
 
