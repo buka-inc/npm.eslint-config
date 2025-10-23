@@ -10,30 +10,30 @@
 
 [Buka][Buka] 基准 Eslint 规则，需要`eslint > 9`。
 
-`@buka/eslint-config` 提供四种适用于不同场景的 eslint 规则：
+`@buka/eslint-config` 提供三种适用于不同场景的 eslint 规则：
 
 - 适用于 `.js` 文件的通用的 eslint 规则。
 - 适用于 `.ts` 文件的通用的 eslint 规则。
-- 适用于 [nuxt](https://nuxt.com/) 的 eslint 规则。
 - 适用于 [nestjs](https://nestjs.com/) 的 eslint 规则。
-- 适用于 [react](https://react.dev/) 的 eslint 规则。
 
-> 部分场景除`recommended`之外，还提供了其他选项。
-> 但并不建议使用其他选项，除非你清楚的知道自己想要做什么。
-
-## js
+## javascript
 
 ```javascript
 // eslint.config.mjs
 import buka from "@buka/eslint-config";
 
-export default [...buka.js.recommend];
+export default [
+  {
+    files: ["**/*.js"],
+    extends: [buka.javascript.recommended],
+  },
+];
 ```
 
-| Config                | Description                                                                                   |
-| :-------------------- | :-------------------------------------------------------------------------------------------- |
-| `buka.js.autofix`     | 仅包含 eslint 支持 autofix 的规则                                                             |
-| `buka.js.recommended` | 包含 @eslint/js 的 recommended 规则 和 buka.js.autofix 规则。并增加 [Buka][Buka] 推荐的规则。 |
+| Config                        | Description                                                                 |
+| :---------------------------- | :-------------------------------------------------------------------------- |
+| `buka.javascript.fixable`     | 仅包含 `@eslint/js` 和 `@stylistic/eslint-plugin` 支持 `--fix` 的规则       |
+| `buka.javascript.recommended` | 包含 `@eslint/js` 的 `recommended` 规则 和 `buka.javascript.fixable` 规则。 |
 
 ## typescript
 
@@ -41,47 +41,35 @@ export default [...buka.js.recommend];
 // eslint.config.mjs
 import buka from "@buka/eslint-config";
 
-export default [...buka.typescript.recommend];
+export default [
+  {
+    files: ["**/*.ts"],
+    extends: [buka.typescript.recommended],
+  },
+];
 ```
 
-| Config                        | Description                                                                                                   |
-| :---------------------------- | :------------------------------------------------------------------------------------------------------------ |
-| `buka.typescript.autofix`     | 仅包含 eslint 和 @typescript-eslint 支持 autofix 的规则                                                       |
-| `buka.typescript.recommended` | 包含 @typescript-eslint 的 recommended 规则 和 buka.typescript.autofix 规则。并增加 [Buka][Buka] 推荐的规则。 |
-
-## nuxt
-
-此规则需要配合[`nuxt@3`](https://nuxt.com/) 和 `@nuxt/eslint` 使用。
-
-```javascript
-// eslint.config.mjs
-import buka from "@buka/eslint-config";
-import withNuxt from "./.nuxt/eslint.config.mjs";
-
-export default withNuxt(...buka.nuxt.recommended);
-```
-
-| Config                  | Description                    |
-| :---------------------- | :----------------------------- |
-| `buka.nuxt.recommended` | 增加 [Buka][Buka] 推荐的规则。 |
+| Config                        | Description                                                                                  |
+| :---------------------------- | :------------------------------------------------------------------------------------------- |
+| `buka.typescript.fixable`     | 包含 `@eslint/js` 、`@stylistic/eslint-plugin` 和 `@typescript-eslint` 支持 `--fix` 的规则。 |
+| `buka.typescript.recommended` | 包含 `@typescript-eslint` 的 `recommended` 规则 和 `buka.typescript.fixable` 规则。          |
 
 ## nestjs
 
 此规则需要配合 [Nestjs](https://nestjs.com/) 使用。
 
-| Config                    | Description                                                         |
-| :------------------------ | :------------------------------------------------------------------ |
-| `buka.nestjs.recommended` | 在 `buka.typescript.recommended` 规则上，增加了 NestJS 需要的配置。 |
-
-## react
-
 ```javascript
 // eslint.config.mjs
 import buka from "@buka/eslint-config";
 
-export default buka.react.recommended;
+export default [
+  {
+    files: ["**/*.ts"],
+    extends: [buka.typescript.recommended],
+  },
+];
 ```
 
-| Config                   | Description                                                                                                 |
-| :----------------------- | :---------------------------------------------------------------------------------------------------------- |
-| `buka.react.recommended` | 在 `buka.typescript.recommended` 规则上，增加了 `eslint-plugin-react` 和 `eslint-plugin-react-hooks` 规则。 |
+| Config                    | Description                                                               |
+| :------------------------ | :------------------------------------------------------------------------ |
+| `buka.nestjs.recommended` | 在 `buka.typescript.recommended` 规则上，添加了适配 `NestJS` 的 `rules`。 |

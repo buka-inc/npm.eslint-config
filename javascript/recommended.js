@@ -1,14 +1,14 @@
-const eslint = require('@eslint/js')
-const autofix = require('./autofix')
+import js from '@eslint/js'
+import js_fixable from './fixable.js'
 
 
-module.exports = [
-  eslint.configs.recommended,
+export default [
+  js.configs.recommended,
 
-  ...autofix,
+  ...js_fixable,
 
   {
-    files: ['**/*.js', '**/*.cjs', '**/*.mjs'],
+    name: '@buka/eslint-config/js/recommended',
     rules: {
       eqeqeq: 'error',
       'new-cap': 'error',
@@ -18,3 +18,4 @@ module.exports = [
     },
   },
 ]
+

@@ -1,10 +1,10 @@
-const globals = require('globals')
-const ts = require('../typescript')
+import globals from 'globals'
+import typescript_recommended from '../typescript/recommended.js'
 
-module.exports = [
-  ...ts.recommended,
+
+export default [
+  ...typescript_recommended,
   {
-    files: ['**/*.js', '**/*.ts', '**/*.mjs', '**/*.cjs'],
     languageOptions: {
       globals: {
         ...globals.node,

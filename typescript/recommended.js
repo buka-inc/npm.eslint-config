@@ -1,39 +1,23 @@
-const parserTs = require('@typescript-eslint/parser')
-const js = require('../js')
-const autofix = require('./autofix')
-const tseslint = require('typescript-eslint')
-const typescriptEslint = require('@typescript-eslint/eslint-plugin')
-const merge = require('../utils/merge')
+import typescriptEslintPlugin from '@typescript-eslint/eslint-plugin'
+import typescriptEslintParser from '@typescript-eslint/parser'
+import typescriptEslint from 'typescript-eslint'
+import typescript_fixable from './fixable.js'
 
 
-module.exports = [
-  ...merge(
-    js.recommended,
-    {
-      files: ['**/*.js', '**/*.cjs', '**/*.mjs', '**/*.ts'],
-    },
-  ),
-
-  ...merge(
-    tseslint.configs.recommended,
-    {
-      files: ['**/*.ts'],
-    },
-  ),
-
-  ...autofix,
+export default [
+  typescriptEslint.configs.recommendedTypeChecked,
+  ...typescript_fixable,
 
   {
-    files: ['**/*.ts'],
+    name: '@buka/eslint-config/typescript/recommended',
+
     languageOptions: {
-      parser: parserTs,
-      parserOptions: {
-        project: true,
-      },
+      parser: typescriptEslintParser,
     },
     plugins: {
-      '@typescript-eslint': typescriptEslint,
+      '@typescript-eslint': typescriptEslintPlugin,
     },
+
     rules: {
       '@typescript-eslint/no-unsafe-call': 'off',
       '@typescript-eslint/no-unsafe-member-access': 'off',
@@ -41,12 +25,6 @@ module.exports = [
       '@typescript-eslint/no-unsafe-argument': 'off',
       '@typescript-eslint/no-explicit-any': 'warn',
       '@typescript-eslint/no-redundant-type-constituents': 'warn',
-      'new-cap': [
-        'error',
-        {
-          capIsNew: false,
-        },
-      ],
       '@typescript-eslint/no-floating-promises': 'error',
       '@typescript-eslint/explicit-function-return-type': [
         'error',
@@ -56,7 +34,6 @@ module.exports = [
           allowTypedFunctionExpressions: true,
         },
       ],
-      'no-unused-vars': 'off',
       '@typescript-eslint/no-unused-vars': ['warn', {
         caughtErrors: 'none',
       }],
@@ -64,12 +41,16 @@ module.exports = [
       '@typescript-eslint/restrict-template-expressions': ['error', {
         allowNumber: true,
       }],
-      'no-dupe-class-members': 'off',
       '@typescript-eslint/no-dupe-class-members': 'error',
-      'no-redeclare': 'off',
       '@typescript-eslint/no-redeclare': 'off',
-      'no-unused-expressions': 'off',
       '@typescript-eslint/no-unused-expressions': ['error', { allowShortCircuit: true }],
+    },
+  },
+  {
+    languageOptions: {
+      parserOptions: {
+        projectService: true,
+      },
     },
   },
 ]

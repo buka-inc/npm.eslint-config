@@ -1,30 +1,15 @@
-const stylistic = require('@stylistic/eslint-plugin')
+import stylistic from '@stylistic/eslint-plugin'
 
 
-module.exports = [
+export default [
   {
-    files: ['**/*.js', '**/*.cjs', '**/*.mjs'],
+    name: '@buka/eslint-config/stylistic/fixable',
 
     plugins: {
       '@stylistic': stylistic,
     },
 
     rules: {
-      'no-div-regex': 'error',
-      'no-else-return': 'error',
-      'no-implicit-coercion': ['error', { boolean: false }],
-      'no-lonely-if': 'error',
-      'no-unneeded-ternary': 'error',
-      'no-useless-computed-key': 'error',
-      'no-var': 'error',
-      // 'no-unused-vars': ['warn', { caughtErrors: 'none' }],
-      'prefer-const': 'error',
-      'prefer-template': 'error',
-      'prefer-object-spread': 'error',
-      curly: ['error', 'multi-line', 'consistent'],
-      yoda: ['error', 'never'],
-
-
       '@stylistic/no-confusing-arrow': 'error',
       '@stylistic/no-floating-decimal': 'error',
       '@stylistic/no-multiple-empty-lines': [
@@ -39,7 +24,8 @@ module.exports = [
       '@stylistic/no-whitespace-before-property': 'error',
       '@stylistic/nonblock-statement-body-position': 'error',
 
-      '@stylistic/line-comment-position': ['error', 'above'],
+      // '@stylistic/line-comment-position': ['error', 'above'],
+
       // 会导致vscode的vim插件的gcc指令无法解除注释
       // "multiline-comment-style": ["error", "starred-block"],
       // typescript 的特殊注释需要三个反斜杠
@@ -50,13 +36,12 @@ module.exports = [
 
       '@stylistic/arrow-parens': ['error', 'always'],
       '@stylistic/arrow-spacing': ['error', { before: true, after: true }],
-      'arrow-body-style': ['error', 'as-needed'],
 
       '@stylistic/comma-dangle': ['error', 'always-multiline'],
       '@stylistic/comma-spacing': ['error', { before: false, after: true }],
       '@stylistic/comma-style': ['error', 'last'],
 
-      '@stylistic/func-call-spacing': ['error', 'never'],
+      '@stylistic/function-call-spacing': ['error', 'never'],
       '@stylistic/function-call-argument-newline': ['error', 'consistent'],
 
       '@stylistic/key-spacing': [
@@ -101,9 +86,14 @@ module.exports = [
       '@stylistic/switch-colon-spacing': ['error', { after: true, before: false }],
       '@stylistic/rest-spread-spacing': ['error', 'never'],
       '@stylistic/template-curly-spacing': ['error', 'never'],
+      '@stylistic/template-tag-spacing': ['error', 'never'],
       '@stylistic/computed-property-spacing': ['error', 'never'],
       '@stylistic/block-spacing': ['error', 'always'],
       '@stylistic/implicit-arrow-linebreak': 'error',
+
+      '@stylistic/dot-location': ['error', 'property'],
+
+      '@stylistic/generator-star-spacing': ['error'],
 
       '@stylistic/indent': [
         'error',
@@ -117,6 +107,9 @@ module.exports = [
           ],
         },
       ],
+      '@stylistic/indent-binary-ops': ['error', 2],
+
+      '@stylistic/max-statements-per-line': ['error'],
       '@stylistic/one-var-declaration-per-line': ['error', 'initializations'],
       '@stylistic/padded-blocks': ['error', 'never'],
       '@stylistic/jsx-quotes': ['error', 'prefer-double'],
@@ -127,6 +120,7 @@ module.exports = [
       '@stylistic/semi': ['error', 'never'],
       '@stylistic/quotes': ['error', 'single', { avoidEscape: true }],
       '@stylistic/linebreak-style': ['error', 'unix'],
+      '@stylistic/operator-linebreak': ['error', 'before'],
       '@stylistic/lines-between-class-members': [
         'error',
         'always',
@@ -135,6 +129,22 @@ module.exports = [
         },
       ],
       '@stylistic/newline-per-chained-call': ['error', { ignoreChainWithDepth: 2 }],
+      '@stylistic/wrap-iife': 'error',
+      '@stylistic/yield-star-spacing': 'error',
+
+      '@stylistic/member-delimiter-style': [
+        'error',
+        {
+          multiline: {
+            delimiter: 'none',
+          },
+        },
+      ],
+      '@stylistic/multiline-ternary': ['error', 'always-multiline'],
+      '@stylistic/type-annotation-spacing': 'error',
+      '@stylistic/type-generic-spacing': 'error',
+      '@stylistic/type-named-tuple-spacing': 'error',
+
     },
   },
 ]
