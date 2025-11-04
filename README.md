@@ -20,14 +20,15 @@
 
 ```javascript
 // eslint.config.mjs
+import { defineConfig } from "eslint/config";
 import buka from "@buka/eslint-config";
 
-export default [
+export default defineConfig([
   {
     files: ["**/*.js"],
     extends: [buka.javascript.recommended],
   },
-];
+]);
 ```
 
 | Config                        | Description                                                                 |
@@ -39,14 +40,15 @@ export default [
 
 ```javascript
 // eslint.config.mjs
+import { defineConfig } from "eslint/config";
 import buka from "@buka/eslint-config";
 
-export default [
+export default defineConfig([
   {
     files: ["**/*.ts"],
     extends: [buka.typescript.recommended],
   },
-];
+]);
 ```
 
 | Config                        | Description                                                                                  |
@@ -60,14 +62,15 @@ export default [
 
 ```javascript
 // eslint.config.mjs
+import { defineConfig } from "eslint/config";
 import buka from "@buka/eslint-config";
 
-export default [
+export default defineConfig([
   {
     files: ["**/*.ts"],
     extends: [buka.nestjs.recommended],
   },
-];
+]);
 ```
 
 | Config                    | Description                                                               |
