@@ -65,7 +65,7 @@ import buka from "@buka/eslint-config";
 export default [
   {
     files: ["**/*.ts"],
-    extends: [buka.typescript.recommended],
+    extends: [buka.nestjs.recommended],
   },
 ];
 ```
