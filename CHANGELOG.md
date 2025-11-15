@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.1](https://github.com/buka-inc/npm.eslint-config/compare/v3.0.0...v3.0.1) (2025-11-15)
+
+
+### Bug Fixes
+
+* off @typescript-eslint/no-unsafe-enum-comparison in nestjs ([39f52d6](https://github.com/buka-inc/npm.eslint-config/commit/39f52d68556e170569398f273cef53b0188733ca))
+
 ## [3.0.0](https://github.com/buka-inc/npm.eslint-config/compare/v2.1.7...v3.0.0) (2025-10-23)
 
 
