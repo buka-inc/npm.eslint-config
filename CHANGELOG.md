@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.2](https://github.com/buka-inc/npm.eslint-config/compare/v3.0.1...v3.0.2) (2025-11-17)
+
+
+### Bug Fixes
+
+* off @typescript-eslint/require-await in nestjs ([ad0ac04](https://github.com/buka-inc/npm.eslint-config/commit/ad0ac04752d93c659829650a52788b52618a5440))
+
 ## [3.0.1](https://github.com/buka-inc/npm.eslint-config/compare/v3.0.0...v3.0.1) (2025-11-15)
 
 
