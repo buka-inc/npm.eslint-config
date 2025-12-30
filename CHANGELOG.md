@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.3](https://github.com/buka-inc/npm.eslint-config/compare/v3.0.2...v3.0.3) (2025-12-30)
+
+
+### Bug Fixes
+
+* off @typescript-eslint/no-empty-object-type in nestjs ([7aab616](https://github.com/buka-inc/npm.eslint-config/commit/7aab616aa25fb3567720e006e8fc7b9c3cd9ad15))
+
 ## [3.0.2](https://github.com/buka-inc/npm.eslint-config/compare/v3.0.1...v3.0.2) (2025-11-17)
 
 
