@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0](https://github.com/buka-inc/npm.eslint-config/compare/v3.0.3...v4.0.0) (2026-03-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop eslint 9 support, require eslint >= 10
+
+### Features
+
+* support eslint 10 ([3e9f84c](https://github.com/buka-inc/npm.eslint-config/commit/3e9f84cc1c66e23e49adf1a5612d0dee3a1b6abe))
+
 ## [3.0.3](https://github.com/buka-inc/npm.eslint-config/compare/v3.0.2...v3.0.3) (2025-12-30)
 
 
