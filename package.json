@@ -31,18 +31,18 @@
   },
   "homepage": "https://github.com/buka-lnc/npm.eslint-config#readme",
   "devDependencies": {
-    "eslint": "^9.38.0",
+    "eslint": "^10.1.0",
     "standard-version": "^9.5.0"
   },
   "peerDependencies": {
-    "eslint": ">= 9"
+    "eslint": ">= 10"
   },
   "dependencies": {
-    "@eslint/js": "^9.38.0",
-    "@stylistic/eslint-plugin": "^5.5.0",
-    "@typescript-eslint/eslint-plugin": "^8.46.2",
-    "@typescript-eslint/parser": "^8.46.2",
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/eslint-plugin": "^8.57.2",
+    "@typescript-eslint/parser": "^8.57.2",
     "globals": "^16.4.0",
-    "typescript-eslint": "^8.46.2"
+    "typescript-eslint": "^8.57.2"
   }
 }
